@@ -1,0 +1,44 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  margin: auto 5%;
+}
+
+.page-heading {
+  text-align: center;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.section-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  background-color: black;
+  color: white;
+  padding: 2%;
+}
+
+/* .section-1-first, .section-1-second {
+    margin
+} */
+
+.title,
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 500px) {
+  .section-1 {
+    display: block;
+  }
+}
